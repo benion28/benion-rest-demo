@@ -1,0 +1,27 @@
+### GET request to example server
+GET http://localhost:8080/cloudvendor
+
+### POST request to example server
+POST http://localhost:8080/cloudvendor
+Content-Type: application/json
+
+{
+"vendorId": "2",
+"vendorName": "Vendor 2",
+"vendorAddress": "Address Two",
+"vendorPhoneNumber": "yyyyyy"
+}
+
+### PUT request to example server
+PUT http://localhost:8080/cloudvendor
+Content-Type: application/json
+
+{
+"vendorId": "C1 updated",
+"vendorName": "Vendor 1 updated",
+"vendorAddress": "Address One updated",
+"vendorPhoneNumber": "xxxxxx"
+}
+
+### DELETE request to example server
+DELETE http://localhost:8080/cloudvendor/C1
